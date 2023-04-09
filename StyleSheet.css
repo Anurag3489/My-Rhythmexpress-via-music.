@@ -1,0 +1,29 @@
+body {  
+    background-color:darkblue;  
+}  
+h1 {  
+    color:navy;  
+    margin-left: 30px; 
+}
+h2 {  
+    color:cyan;  
+     
+}
+h3 {  
+    color:darkblue;  
+     font-size:120%
+}
+h4 {  
+    color:PURPLE;  
+     font-size:130%
+}
+li:hover{
+	color:red;
+}
+a:hover{
+	color:red;
+}
+
+a{
+	text-decoration:none;1
+}

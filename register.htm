@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, select, textarea, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+
+
+		
+	  .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      }
+	  
+	  form {
+      width: 95%;
+	  margin:20px;
+      padding: 20px;
+      border-radius: 16px;
+      background: #CCFFFF;
+      box-shadow: 0 0 30px 0 #a37547; 
+      }
+	  #User{
+      display: flex;
+      flex-wrap: wrap;
+      
+      }
+	  
+      #Usame,#Passw , #Date ,#Pass,#cars {
+      width: calc(100% - 50px);
+      padding: 5px;
+      }
+	    #Image{
+		
+		margin-left:10px;
+		}
+		
+		button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #6b4724;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+	  
+	  .btn-block {
+  margin-top: 10px;
+  text-align: center;
+}
+	  
+	  
+
+</style>
+</head>
+<body>
+<div style="background-color:darkblue;">
+		 <div style="width:10%; float:left;">
+		 <img src="logo.jpg" alt="logo" width="100%" height="100%">
+		 </div>
+            <div style="background-color:cyan; background-image:music.jpg; width:80%; text-align:center; float:left; margin-top:20px;">
+               <h1><i>MyRhythm<sub>express via music</sub></i></h1>
+            </div>
+			<div style="width:10%; float:left;">
+		 <img src="logo.jpg" alt="logo" width="100%" height="100%">
+		 </div><br>
+		 <img src="img.jpg" alt="logo" width="100%" height="100">
+</div>
+<div>
+<br>
+<h1 style="text-align:center; font-family: Franklin Gothic ;">Registration Form </h1><br>
+
+</div>
+<form>
+
+<div class="textbox">
+<div id="User">
+	<label for="Usname"> User Name: </label><br>	
+  <input type="text" id="Usame" name="fname"><br>
+	<label for="Pass">Password:</label><br>
+  <input type="password" id="Pass" name="fname"><br>
+	<label for="Passw">Re_Enter Password:</label><br>
+  <input type="password" id="Passw" name="fname"><br>
+</div>
+	<label for="Date">Date:</label><br>
+  <input type="datetime-local" id="Date" name="fname"><br>
+  
+  <div >
+  <br>
+  <label for="Image"><b>Image:</b>  </label>
+  <input type="Image" id="Image" name="fname"><br>
+  </div>
+  <br>
+  <div >
+        <p>Gender:</p>
+        <div >
+          <div>
+            <input type="radio" value="none" id="radio_1" name="Male"/>
+            <label for="radio_1" class="radio"><span>Male</span></label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radio_2" name="question1"/>
+            <label for="radio_2" class="radio"><span>Female</span></label>
+          </div>
+        </div>
+      </div>
+  
+   
+  
+  <div>
+  <p>State:</p>
+  <select id="cars" name="cars">
+    <option value="volvo">Bihar</option>
+    <option value="saab">Gujarat</option>
+    <option value="fiat">Maharashtra</option>
+    <option value="audi">Uttar Pradesh</option>
+  </select>
+  </div>
+<br>
+	<div>
+	<b>Genres:</b>
+  <div>
+<div>
+<input type="checkbox" id="rock" name="fav_language" value="HTML">
+  <label for="rock">ROCK</label><br>
+</div>
+<div>
+<input type="checkbox" id="rock" name="fav_language" value="HTML">
+  <label for="rock">FOLK</label><br>
+</div>
+<div>
+<input type="checkbox" id="rock" name="fav_language" value="HTML">
+  <label for="rock">DEVPTIONAL</label><br>
+</div>
+<div>
+<input type="checkbox" id="rock" name="fav_language" value="HTML">
+  <label for="rock">ROMENTIC</label><br>
+</div>
+<div>
+<input type="checkbox" id="rock" name="fav_language" value="HTML">
+  <label for="rock">MOTIVATIONAL</label><br>
+</div>
+<div>
+<div class="btn-block">
+          <button onclick=window.alert"signup"s;h type="submit" href="/">Submit</button>
+        </div>
+</div> 
+</div>
+</form> 
+</div>0
+</body>
+</html>
